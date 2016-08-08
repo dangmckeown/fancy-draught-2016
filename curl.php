@@ -1,6 +1,6 @@
 ﻿<?php
 
-// Here's where we'll be putting the players
+// Here's where we'll be putting all the players in the league based on current fantasy.premierleague.com/player-list
 $players=array();
 
 
