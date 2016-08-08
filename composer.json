@@ -1,0 +1,14 @@
+{
+    "name": "daniel/fancy-draught",
+    "require-dev": {
+        "php": "^5.6.24",
+        "heroku/heroku-buildpack-php": "^109.0"
+    },
+    "authors": [
+        {
+            "name": "dangmckeown",
+            "email": "daniel.mckeown@gmail.com"
+        }
+    ],
+    "require": {}
+}
