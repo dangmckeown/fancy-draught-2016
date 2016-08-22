@@ -6,36 +6,36 @@
 
 $joe = array(
 
-'Name' => "Joe",
-'Team' => "Joe's Woes",
+'Name' => "Joe Mac",
+'Team' => "People who struggle with roman numerals Memorial VX",
 'Goalkeepers' => array(
-(["Cech", "Arsenal"]),
-(["de Gea", "Man Utd"])
+(["Schmeichel", "Leicester"]),
+(["McGregor", "Hull"])
 ),
 
 'Defenders' => array(
-(["Kompany", "Man City"]),
-(["Terry", "Chelsea"]),
-(["Coleman", "Everton"]),
-(["Kelly", "Crystal Palace"]),
-(["McKeown", "Real Osaka"])
+(["Dawson", "West Brom"]),
+(["Smalling", "Man Utd"]),
+(["Ivanovic", "Chelsea"]),
+(["Cook", "Bournemouth"]),
+(["Cathcart", "Watford"])
 ),
 
 'Midfielders' => array(
 
-(["Sánchez", "Arsenal"]),
-(["Özil", "Arsenal"]),
-(["Mahrez", "Leicester"]),
 (["De Bruyne", "Man City"]),
-(["Arter", "Bournemouth"])
+(["Townsend", "Crystal Palace"]),
+(["Milner", "Liverpool"]),
+(["Ayew", "Swansea"]),
+(["Afellay", "Stoke"])
 
 ),
 
 'Forwards' => array(
 
-(["Batshuayi", "Chelsea"]),
-(["Benteke", "Liverpool"]),
-(["Barrow", "Swansea"])
+(["Kane", "Spurs"]),
+(["Giroud", "Arsenal"]),
+(["Carroll", "West Ham"])
 
 )
 
@@ -45,38 +45,78 @@ $joe = array(
 
 //=========================
 
-$dan = array(
+$christ = array(
 
-'Name' => "Dan McKeown",
-'Team' => "Osama Penuin AFC",
+'Name' => "Christian",
+'Team' => "You Get a £6.5m Striker, You Get a £6.5m Striker, Everyone Gets a £6.5m Striker Christopher Biggins Memorial XV",
 'Goalkeepers' => array(
-(["McCarthy",	"Southampton"]),
-(["Guzan",	"Middlesbrough"])
+(["Courtois",	"Chelsea"]),
+(["Gomes",	"Watford"])
 ),
 
 'Defenders' => array(
-(["Zouma",	"Chelsea"]),
-(["Dann",	"Crystal Palace"]),
-(["McNair",	"Man Utd"]),
-(["Flanagan",	"Liverpool"]),
-(["Wollscheid",	"Stoke"])
+(["Shawcross",	"Stoke"]),
+(["Bertrand",	"Southampton"]),
+(["Coleman",	"Everton"]),
+(["Koscielny",	"Arsenal"]),
+(["Sagna",	"Man City"])
 ),
 
 'Midfielders' => array(
 
-(["Fàbregas",	"Chelsea"]),
-(["Huddlestone",	"Hull"]),
-(["Schneiderlin",	"Man Utd"]),
-(["Larsson",	"Sunderland"]),
-(["Cork",	"Swansea"])
+(["Payet",	"West Ham"]),
+(["Alli",	"Spurs"]),
+(["Mané",	"Liverpool"]),
+(["Mkhitaryan",	"Man Utd"]),
+(["Phillips",	"West Brom"])
 
 ),
 
 'Forwards' => array(
 
-(["Wilson",	"Bournemouth"]),
-(["Crouch",	"Stoke"]),
-(["Rondón",	"West Brom"])
+(["Gray",	"Burnley"]),
+(["Llorente",	"Swansea"]),
+(["Negredo",	"Middlesbrough"])
+
+)
+
+//remember to insert commas
+
+); //End $christ
+
+
+$dan = array(
+
+'Name' => "Dan McKeown",
+'Team' => "Financial Fair Play Sepp Blatter Memorial XV",
+'Goalkeepers' => array(
+(["Lloris",	"Spurs"]),
+(["Butland",	"Stoke"])
+),
+
+'Defenders' => array(
+(["Azpilicueta",	"Chelsea"]),
+(["Cresswell",	"West Ham"]),
+(["Williams",	"Swansea"]),
+(["Davies",	"Hull"]),
+(["Kolarov",	"Man City"])
+),
+
+'Midfielders' => array(
+
+(["Sanchez",	"Arsenal"]),
+(["Fletcher",	"West Brom"]),
+(["Cabaye",	"Crystal Palace"]),
+(["Davis",	"Southampton"]),
+(["Clayton",	"Middlesbrough"])
+
+),
+
+'Forwards' => array(
+
+(["Vardy",	"Leicester"]),
+(["Lukaku",	"Everton"]),
+(["Defoe",	"Sunderland"])
 
 )
 
@@ -84,7 +124,168 @@ $dan = array(
 
 ); //End $dan
 
-$teams = array($joe,$dan);
 
+$pete = array(
+
+'Name' => "Pete Harmer",
+'Team' => "Dr Aftlove or: How I learned to Stop Worrying and Love Saido Berahino as a <strike>Second</strike> Seventh Round Pick sponsored by Torque, it's what moves boulders Memorial XV",
+'Goalkeepers' => array(
+(["Heaton",	"Burnley"]),
+(["Cech",	"Arsenal"])
+),
+
+'Defenders' => array(
+(["Matip",	"Liverpool"]),
+(["Dann",	"Crystal Palace"]),
+(["Huth",	"Leicester"]),
+(["Fonte",	"Southampton"]),
+(["Byram",	"West Ham"])
+),
+
+'Midfielders' => array(
+
+(["Willian",	"Chelsea"]),
+(["Barkley",	"Everton"]),
+(["Martial",	"Man Utd"]),
+(["Shaqiri",	"Stoke"]),
+(["Sigurdsson",	"Swansea"])
+
+),
+
+'Forwards' => array(
+
+(["Agüero",	"Man City"]),
+(["Ighalo",	"Watford"]),
+(["Berahino",	"West Brom"])
+
+)
+
+//remember to insert commas
+
+); //End $pete
+
+
+$holly = array(
+
+'Name' => "Holly 'The Hammer' Hamilton",
+'Team' => "Team GB Rio XVI Memorial XV",
+'Goalkeepers' => array(
+(["Boruc",	"Bournemouth"]),
+(["Mannone",	"Sunderland"])
+),
+
+'Defenders' => array(
+(["Bellerin",	"Arsenal"]),
+(["Alderweireld",	"Spurs"]),
+(["Lowton",	"Burnley"]),
+(["van Dijk",	"Southampton"]),
+(["Ogbonna",	"West Ham"])
+),
+
+'Midfielders' => array(
+
+(["Fàbregas",	"Chelsea"]),
+(["Deulofeu",	"Everton"]),
+(["Nolito",	"Man City"]),
+(["Firmino",	"Liverpool"]),
+(["Mahrez",	"Leicester"])
+
+),
+
+'Forwards' => array(
+
+(["Ibrahimovic",	"Man Utd"]),
+(["Deeney",	"Watford"]),
+(["Rondón",	"West Brom"])
+
+)
+
+//remember to insert commas
+
+); //End $holly
+
+
+$samg = array(
+
+'Name' => "Samuel E Green",
+'Team' => "Sir David Attenborough / Bruce Forsyth Memorial XV",
+'Goalkeepers' => array(
+(["Fabianski",	"Swansea"]),
+(["Mandanda",	"Crystal Palace"])
+),
+
+'Defenders' => array(
+(["Stones",	"Man City"]),
+(["Monreal",	"Arsenal"]),
+(["Bailly",	"Man Utd"]),
+(["Brunt",	"West Brom"]),
+(["Keane",	"Burnley"])
+),
+
+'Midfielders' => array(
+
+(["Hazard",	"Chelsea"]),
+(["Fischer",	"Middlesbrough"]),
+(["Feghouli",	"West Ham"]),
+(["Silva",	"Man City"]),
+(["Tadic",	"Southampton"])
+
+),
+
+'Forwards' => array(
+
+(["Wilson",	"Bournemouth"]),
+(["Sturridge",	"Liverpool"]),
+(["Hernández",	"Hull"])
+
+)
+
+//remember to insert commas
+
+); //End $samg
+
+
+$samba = array(
+
+'Name' => "Sam Batch",
+'Team' => "Pascal Chimbonda, Nomadic Wanderer Memorial XV",
+
+'Goalkeepers' => array(
+(["de Gea",	"Man Utd"]),
+(["Guzan",	"Middlesbrough"])
+),
+
+'Defenders' => array(
+(["van Aanholt",	"Sunderland"]),
+(["Otamendi",	"Man City"]),
+(["Clyne",	"Liverpool"]),
+(["Evans",	"West Brom"]),
+(["Baines",	"Everton"])
+),
+
+'Midfielders' => array(
+
+(["Özil",	"Arsenal"]),
+(["Arnautovic",	"Stoke"]),
+(["Eriksen",	"Spurs"]),
+(["Ibe",	"Bournemouth"]),
+(["Antonio",	"West Ham"])
+
+),
+
+'Forwards' => array(
+
+(["Musa",	"Leicester"]),
+(["Costa",	"Chelsea"]),
+(["Long",	"Southampton"])
+
+)
+
+//remember to insert commas
+
+); //End $samb
+
+
+$teams = array($joe,$dan,$pete,$holly,$samg,$samba,$christ);
 
 ?>

@@ -1,6 +1,6 @@
 ﻿<?php
 
-// Here's where we'll be putting all the players in the league based on current fantasy.premierleague.com/player-list
+// Here's where we'll be putting the players
 $players=array();
 
 
@@ -76,9 +76,7 @@ $athletes = array_merge($athletes_one, $athletes_two);
 
 foreach($athletes as $athlete){
 
-# $reg = "/\s/";
-# $athlete = preg_replace("</tr>", "", $athlete);
-# $athlete = preg_replace($reg, "", $athlete);
+
 
 scrape_between($athlete, " ","</tr>");
 
@@ -90,8 +88,9 @@ $reg_endspace = "/\s+$/";
 $athlete[1] = preg_replace($reg_endspace, "", $athlete[1]);
 $athlete[2] = preg_replace($reg_endspace, "", $athlete[2]);
 $athlete[3] = preg_replace($reg_endspace, "", $athlete[3]);
-unset($athlete[4]);
+# unset($athlete[4]);
 $players[] = $athlete;
+#var_dump($athlete);
 }
 
 }//end delimiters loop
