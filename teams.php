@@ -26,7 +26,7 @@ $joe = array(
 (["De Bruyne", "Man City"]),
 (["Townsend", "Crystal Palace"]),
 (["Milner", "Liverpool"]),
-(["Ayew", "Swansea"]),
+(["Ayew", "West Ham"]),
 (["Afellay", "Stoke"])
 
 ),
@@ -97,14 +97,14 @@ $dan = array(
 'Defenders' => array(
 (["Azpilicueta",	"Chelsea"]),
 (["Cresswell",	"West Ham"]),
-(["Williams",	"Swansea"]),
+(["Williams",	"Everton"]),
 (["Davies",	"Hull"]),
 (["Kolarov",	"Man City"])
 ),
 
 'Midfielders' => array(
 
-(["Sanchez",	"Arsenal"]),
+(["Sánchez",	"Arsenal"]),
 (["Fletcher",	"West Brom"]),
 (["Cabaye",	"Crystal Palace"]),
 (["Davis",	"Southampton"]),
@@ -175,7 +175,7 @@ $holly = array(
 ),
 
 'Defenders' => array(
-(["Bellerin",	"Arsenal"]),
+(["Bellerín",	"Arsenal"]),
 (["Alderweireld",	"Spurs"]),
 (["Lowton",	"Burnley"]),
 (["van Dijk",	"Southampton"]),
@@ -234,7 +234,7 @@ $samg = array(
 
 'Forwards' => array(
 
-(["Wilson",	"Bournemouth"]),
+(["Callum Wilson",	"Bournemouth"]),
 (["Sturridge",	"Liverpool"]),
 (["Hernández",	"Hull"])
 
