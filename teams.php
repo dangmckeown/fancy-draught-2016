@@ -16,7 +16,7 @@ $joe = array(
 'Defenders' => array(
 (["Dawson", "West Brom"]),
 (["Smalling", "Man Utd"]),
-(["Ivanovic", "Chelsea"]),
+(["Ivanovic", 23]),
 (["Cook", "Bournemouth"]),
 (["Cathcart", "Watford"])
 ),
@@ -64,7 +64,7 @@ $christ = array(
 
 'Midfielders' => array(
 
-(["Payet",	"West Ham"]),
+(["Payet",	81]),
 (["Alli",	"Spurs"]),
 (["Mané",	"Liverpool"]),
 (["Mkhitaryan",	"Man Utd"]),
@@ -138,7 +138,7 @@ $pete = array(
 (["Matip",	"Liverpool"]),
 (["Dann",	"Crystal Palace"]),
 (["Huth",	"Leicester"]),
-(["Fonte",	"Southampton"]),
+(["Fonte",	"West Ham"]),
 (["Byram",	"West Ham"])
 ),
 
@@ -155,7 +155,7 @@ $pete = array(
 'Forwards' => array(
 
 (["Agüero",	"Man City"]),
-(["Ighalo",	"Watford"]),
+(["Ighalo",	39]),
 (["Berahino",	"West Brom"])
 
 )
@@ -256,7 +256,7 @@ $samba = array(
 ),
 
 'Defenders' => array(
-(["van Aanholt",	"Sunderland"]),
+(["van Aanholt",	"Crystal Palace"]),
 (["Otamendi",	"Man City"]),
 (["Clyne",	"Liverpool"]),
 (["Evans",	"West Brom"]),
