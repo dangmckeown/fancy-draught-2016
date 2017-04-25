@@ -5,10 +5,10 @@ function bench($manager){
 $score = 0; 
 
 $squad = assign_scores($manager);
-var_dump($squad);
+print_r($squad);
 	
 $eleven = starting_eleven($manager);
-var_dump($eleven);
+print_r($eleven);
 	
 $reserves['Goalkeepers'] = array_diff($squad, $eleven);
 
