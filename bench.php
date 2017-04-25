@@ -5,11 +5,14 @@ function bench($manager){
 $score = 0; 
 
 $squad = assign_scores($manager);
+var_dump($squad);
+	
+$eleven = starting_eleven($manager);
+var_dump($eleven);
+	
+$reserves = array_diff($squad, $eleven);
 
-$eleven = array();
-
-$reserves = array();
-
+	/*
 $bench = array();
 
 $def = $squad['Defenders'];
@@ -203,6 +206,10 @@ unset($bench[$key]);
 }
 
 return $bench;
+
+*/
+	
+return $reserves;
 } //end function
 
 ?>
