@@ -10,7 +10,13 @@ var_dump($squad);
 $eleven = starting_eleven($manager);
 var_dump($eleven);
 	
-$reserves = array_diff($squad, $eleven);
+$reserves['Goalkeepers'] = array_diff($squad, $eleven);
+
+$reserves['Defenders'] = array_diff($squad['Defenders'], $eleven['Defenders']);
+	
+$reserves['Midfielders'] = array_diff($squad['Midfielders'], $eleven['Midfielders']);
+
+$reserves['Forwards'] = array_diff($squad['Forwards'], $eleven['Forwards']);
 
 	/*
 $bench = array();
