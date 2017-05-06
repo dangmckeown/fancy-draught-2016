@@ -43,11 +43,12 @@ echo "<p>Bench: ";
 
 
 foreach ($bench as $key => $ben){
+  if (count($ben)){
 echo $key . ": ";
 foreach ($ben as $b){
 echo $b[0] . " (" . $b[2] . ") ";
 }
-
+  }
 }
 
 
@@ -55,7 +56,7 @@ echo $b[0] . " (" . $b[2] . ") ";
 
 echo "</p></center>";
   
-  print_r($bench);
+#  print_r($bench);
 
 } //END FUNCTION
 
