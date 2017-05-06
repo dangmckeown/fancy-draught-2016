@@ -154,7 +154,7 @@ unset($bench["Team"]);
 
 $reserves = array();
 
-for ($i = 1; $i <= 4; $i++){
+for ($i = 1; $i <= 5; $i++){
 
 $score = 0;
 
@@ -193,7 +193,7 @@ $bench['Goalkeepers'] = get_min($squad['Goalkeepers']);
 
 $eleven['Goalkeepers'] = $squad['Goalkeepers'];
 
-$key = array_search($bench['Goalkeepers'][0], $eleven['Goalkeepers']);
+$key = array_search($bench['Goalkeepers'], $eleven['Goalkeepers']);
 
 unset($eleven['Goalkeepers'][$key]);
 
