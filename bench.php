@@ -3,7 +3,7 @@
 function bench($manager){
 
 $squad = assign_scores($manager);
-$eleven = array();
+$eleven = starting_eleven($manager);
 
 	
 
