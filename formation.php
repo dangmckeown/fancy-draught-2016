@@ -54,6 +54,8 @@ echo $b[0] . " (" . $b[2] . ") ";
 
 
 echo "</p></center>";
+  
+  print_r($bench);
 
 } //END FUNCTION
 
