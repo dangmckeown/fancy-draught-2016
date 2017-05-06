@@ -28,7 +28,7 @@ $gk[2] = "0";
 	if ($player[0] == $p && $player[1] == $gk[0] && $player[2] == $gk[1] ){
 		$gk[2] = $player[3];
 	} //end if
-		else if($player[0] == $p && $player[1] == $gk[0] && preg_match($pat,$player[1]){
+		else if($player[0] == $p && $player[1] == $gk[0] && preg_match($pat,$player[1])){
 		$gk[2] = $player[1];
 		}
 	} //end foreach $players
