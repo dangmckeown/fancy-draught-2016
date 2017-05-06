@@ -17,7 +17,7 @@ $joe = array(
 (["Dawson", "West Brom"]),
 (["Smalling", "Man Utd"]),
 (["Ivanovic", 23]),
-(["Cook", "Bournemouth"]),
+(["Steve Cook", "Bournemouth"]),
 (["Cathcart", "Watford"])
 ),
 
