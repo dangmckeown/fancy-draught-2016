@@ -156,7 +156,7 @@ $pete = array(
 
 (["Agüero",	"Man City"]),
 (["Ighalo",	39]),
-(["Berahino",	"West Brom"])
+(["Berahino",	"Stoke"])
 
 )
 
