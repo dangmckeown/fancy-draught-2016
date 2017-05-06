@@ -22,11 +22,15 @@ foreach ($playertypes as $pt){
 $p = rtrim($pt,'s');
 
 foreach ($manager[$pt] as $gk){
+	$pat = "/^\d/";
 $gk[2] = "0";
 	foreach($players as $player){
 	if ($player[0] == $p && $player[1] == $gk[0] && $player[2] == $gk[1] ){
 		$gk[2] = $player[3];
 	} //end if
+		else if($player[0] == $p && $player[1] == $gk[0] && preg_match($pat,$player[1]){
+		$gk[2] = $player[1];
+		}
 	} //end foreach $players
 
 $squad[$pt][] = $gk;
