@@ -137,7 +137,7 @@ $eleven[$key][] = $r;
 }
 }
 // Back of the net! Now split your keepers.
-$bench['Goalkeepers'] = get_min($squad['Goalkeepers']);
+$bench['Goalkeepers'][] = get_min($squad['Goalkeepers']);
 $eleven['Goalkeepers'] = $squad['Goalkeepers'];
 $key = array_search($bench['Goalkeepers'], $eleven['Goalkeepers']);
 unset($eleven['Goalkeepers'][$key]);
