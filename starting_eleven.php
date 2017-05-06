@@ -44,7 +44,7 @@ $third = $d[2];
 $pickthree = $d;
 }	//end if
 
-$eleven['Defenders'] = array($pickone,$picktwo,$pickthree);
+$eleven['Defenders'] = array($pickone,$picktwo);
 
 } //end foreach
 
@@ -78,7 +78,7 @@ $third = $d[2];
 $pickthree = $d;
 }	//end if
 
-$eleven['Midfielders'] = array($pickone,$picktwo,$pickthree);
+$eleven['Midfielders'] = array($pickone,$picktwo);
 
 } //end foreach
 
@@ -109,7 +109,7 @@ $nextb = $d[2];
 $picktwo = $d;	
 }	//end if
 
-$eleven['Forwards'] = array($pickone,$picktwo);
+$eleven['Forwards'] = array($pickone);
 
 } //end foreach
 
@@ -154,7 +154,7 @@ unset($bench["Team"]);
 
 $reserves = array();
 
-for ($i = 1; $i <= 2; $i++){
+for ($i = 1; $i <= 4; $i++){
 
 $score = 0;
 
@@ -193,7 +193,7 @@ $bench['Goalkeepers'] = get_min($squad['Goalkeepers']);
 
 $eleven['Goalkeepers'] = $squad['Goalkeepers'];
 
-$key = array_search($bench['Goalkeepers'], $eleven['Goalkeepers']);
+$key = array_search($bench['Goalkeepers'][0], $eleven['Goalkeepers']);
 
 unset($eleven['Goalkeepers'][$key]);
 
